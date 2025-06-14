@@ -66,7 +66,11 @@ public class BaseTest {
         }
         WebDriver currentDriver = getDriver();
         if(driver.get()!=null){
-            currentDriver.manage().window().setSize(new Dimension(1920, 1080));
+            if(isHeadless){
+                currentDriver.manage().window().setSize(new Dimension(1920, 1080));
+            } else {
+                currentDriver.manage().window().maximize();
+            }
             currentDriver.manage().deleteAllCookies();
             currentDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
             currentDriver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
