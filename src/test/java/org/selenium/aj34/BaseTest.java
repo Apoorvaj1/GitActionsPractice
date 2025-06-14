@@ -48,6 +48,8 @@ public class BaseTest {
                     edgeOptions.addArguments("--headless");
                     edgeOptions.addArguments("--disable-gpu");
                     edgeOptions.addArguments("window-size=1920,1080");
+                    edgeOptions.addArguments("--disable-dev-shm-usage");
+                    edgeOptions.addArguments("--no-sandbox");
                 }
                 driver.set(new EdgeDriver(edgeOptions));
             } else if (browserName.equals("firefox")) {
