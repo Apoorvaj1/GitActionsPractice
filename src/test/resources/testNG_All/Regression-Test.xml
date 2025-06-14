@@ -5,7 +5,7 @@
         <parameter name="browser" value="${browserName}"/>
         <parameter name="headless" value="${headlessOrNot}"/>
         <classes>
-            <class name="org.selenium.aj34.Pro1Test"/>
+            <class name="org.selenium.aj34.Tests.LoginPageTest"/>
         </classes>
     </test>
 </suite>

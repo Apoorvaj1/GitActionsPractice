@@ -34,10 +34,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "Regression/Test",
+    "last_opened_file_path": "D:/Selenium Project/GithubActionsPrac/.github/workflows"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Selenium Project\GithubActionsPrac\.github\workflows" />
+      <recent name="D:\Selenium Project\GithubActionsPrac\src\test\resources\testNG_All" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Selenium Project\GithubActionsPrac\src\test\resources\testNG_All" />
     </key>
