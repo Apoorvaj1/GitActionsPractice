@@ -18,5 +18,4 @@ jobs:
           cache: 'maven'
 
       - name: Run
-        run: |
-          pytest --maxfail=1 --disable-warnings -q
+        run: mvn clean test -Punit-testing
