@@ -1,5 +1,6 @@
 package org.selenium.aj34;
 
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -57,7 +58,6 @@ public class BaseTest {
                 if(isHeadless){
                     options.addArguments("--headless");
                     options.addArguments("--disable-gpu");
-                    options.addArguments("window-size=1920,1080");
                 }
                 driver.set(new FirefoxDriver(options));
             } else {
@@ -66,7 +66,7 @@ public class BaseTest {
         }
         WebDriver currentDriver = getDriver();
         if(driver.get()!=null){
-            currentDriver.manage().window().maximize();
+            currentDriver.manage().window().setSize(new Dimension(1920, 1080));
             currentDriver.manage().deleteAllCookies();
             currentDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
             currentDriver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
