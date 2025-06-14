@@ -7,6 +7,9 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.selenium.aj34.Pages.HomePage;
+import org.selenium.aj34.Pages.LoginPage;
+import org.selenium.aj34.Pages.MainPage;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
@@ -17,6 +20,9 @@ import java.time.Duration;
 public class BaseTest {
 
     private static final ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+    protected MainPage mainPage;
+    protected LoginPage loginPage;
+    protected HomePage homePage;
 
     public static WebDriver getDriver() {
         return driver.get();
@@ -59,13 +65,17 @@ public class BaseTest {
             currentDriver.manage().deleteAllCookies();
             currentDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
             currentDriver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
+            this.mainPage = new MainPage(currentDriver);
+            this.loginPage = new LoginPage(currentDriver);
+            this.homePage = new HomePage(currentDriver);
         }
     }
 
 
     @AfterMethod
-    public void tearDown(){
+    public void tearDown() throws InterruptedException {
         if(driver.get()!=null){
+            Thread.sleep(2000);
             driver.get().quit();
             driver.remove();
         }
