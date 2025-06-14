@@ -40,7 +40,6 @@ public class BaseTest {
                 if(isHeadless){
                     chromeOptions.addArguments("--headless");  // CI-friendly headless mode
                     chromeOptions.addArguments("--disable-gpu");
-                    chromeOptions.addArguments("window-size=1920,1080");
                 }
                 driver.set(new ChromeDriver(chromeOptions));
             } else if (browserName.equals("edge")) {
@@ -48,9 +47,6 @@ public class BaseTest {
                 if(isHeadless){
                     edgeOptions.addArguments("--headless");
                     edgeOptions.addArguments("--disable-gpu");
-                    edgeOptions.addArguments("window-size=1920,1080");
-                    edgeOptions.addArguments("--disable-dev-shm-usage");
-                    edgeOptions.addArguments("--no-sandbox");
                 }
                 driver.set(new EdgeDriver(edgeOptions));
             } else if (browserName.equals("firefox")) {
