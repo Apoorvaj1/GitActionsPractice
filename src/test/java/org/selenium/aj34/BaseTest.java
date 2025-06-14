@@ -2,7 +2,9 @@ package org.selenium.aj34;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -25,9 +27,23 @@ public class BaseTest {
         browserName = browserName.toLowerCase();
         if(driver.get()==null){
             if(browserName.equals("chrome")){
-                driver.set(new ChromeDriver());
+                ChromeOptions chromeOptions = new ChromeOptions();
+                chromeOptions.addArguments("--headless=new");  // CI-friendly headless mode
+                chromeOptions.addArguments("--no-sandbox");
+                chromeOptions.addArguments("--disable-dev-shm-usage");
+                chromeOptions.addArguments("--disable-gpu");
+                chromeOptions.addArguments("--remote-allow-origins=*");
+                chromeOptions.addArguments("--user-data-dir=/tmp/chrome-profile-" + System.currentTimeMillis());
+                driver.set(new ChromeDriver(chromeOptions));
             } else if (browserName.equals("edge")) {
-                driver.set(new EdgeDriver());
+                EdgeOptions edgeOptions = new EdgeOptions();
+                edgeOptions.addArguments("--headless=new");
+                edgeOptions.addArguments("--no-sandbox");
+                edgeOptions.addArguments("--disable-dev-shm-usage");
+                edgeOptions.addArguments("--disable-gpu");
+                edgeOptions.addArguments("--remote-allow-origins=*");
+                edgeOptions.addArguments("--user-data-dir=/tmp/edge-profile-" + System.currentTimeMillis());
+                driver.set(new EdgeDriver(edgeOptions));
             } else if (browserName.equals("firefox")) {
                 driver.set(new FirefoxDriver());
             } else {
