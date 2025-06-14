@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Running Unit test Suite">
+    <test name="Unit test">
+        <parameter name="browser" value="${browserName}"/>
+        <parameter name="headless" value="${headlessOrNot}"/>
+        <classes>
+            <class name="org.selenium.aj34.Tests.LoginPageTest"/>
+        </classes>
+    </test>
+</suite>

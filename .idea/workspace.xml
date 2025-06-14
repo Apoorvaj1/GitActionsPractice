@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bddd5ff9-4c62-438a-9dfa-2462e178e728" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/selenium/aj34/Base/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/selenium/aj34/Pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/selenium/aj34/Pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/selenium/aj34/Pages/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/LoginPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testNG_All/Regression-Test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/selenium/aj34/App.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testNG_All/Unit-Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testNG_All/Unit-Test.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +46,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Feature/UnitTest"
+    "git-widget-placeholder": "Feature/UnitTest",
+    "last_opened_file_path": "D:/Selenium Project/GithubActionsPrac/src/test/resources/testNG_All"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Selenium Project\GithubActionsPrac\src\test\resources\testNG_All" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Selenium Project\GithubActionsPrac\src\test\resources\testNG_All" />
     </key>
