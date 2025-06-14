@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
@@ -21,31 +22,33 @@ public class BaseTest {
         return driver.get();
     }
 
-    @Parameters({"browser"})
+    @Parameters({"browser","headless"})
     @BeforeMethod
-    public void setUp(@Optional("chrome") String browserName){
+    public void setUp(@Optional("chrome") String browserName, @Optional("false") String headless){
         browserName = browserName.toLowerCase();
+        boolean isHeadless = Boolean.parseBoolean(headless);
         if(driver.get()==null){
             if(browserName.equals("chrome")){
                 ChromeOptions chromeOptions = new ChromeOptions();
-                chromeOptions.addArguments("--headless=new");  // CI-friendly headless mode
-                chromeOptions.addArguments("--no-sandbox");
-                chromeOptions.addArguments("--disable-dev-shm-usage");
-                chromeOptions.addArguments("--disable-gpu");
-                chromeOptions.addArguments("--remote-allow-origins=*");
-                chromeOptions.addArguments("--user-data-dir=/tmp/chrome-profile-" + System.currentTimeMillis());
+                if(isHeadless){
+                    chromeOptions.addArguments("--headless");  // CI-friendly headless mode
+                    chromeOptions.addArguments("--disable-gpu");
+                }
                 driver.set(new ChromeDriver(chromeOptions));
             } else if (browserName.equals("edge")) {
                 EdgeOptions edgeOptions = new EdgeOptions();
-                edgeOptions.addArguments("--headless=new");
-                edgeOptions.addArguments("--no-sandbox");
-                edgeOptions.addArguments("--disable-dev-shm-usage");
-                edgeOptions.addArguments("--disable-gpu");
-                edgeOptions.addArguments("--remote-allow-origins=*");
-                edgeOptions.addArguments("--user-data-dir=/tmp/edge-profile-" + System.currentTimeMillis());
+                if(isHeadless){
+                    edgeOptions.addArguments("--headless");
+                    edgeOptions.addArguments("--disable-gpu");
+                }
                 driver.set(new EdgeDriver(edgeOptions));
             } else if (browserName.equals("firefox")) {
-                driver.set(new FirefoxDriver());
+                FirefoxOptions options = new FirefoxOptions();
+                if(isHeadless){
+                    options.addArguments("--headless");
+                    options.addArguments("--disable-gpu");
+                }
+                driver.set(new FirefoxDriver(options));
             } else {
                 throw new RuntimeException("Browser not supported: " + browserName);
             }
