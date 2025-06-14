@@ -9,5 +9,6 @@ public class Pro1Test extends BaseTest {
     public void test1(){
         getDriver().get("https://www.facebook.com");
         System.out.println("Title: " + getDriver().getTitle());
+        System.out.println("Hello World");
     }
 }
