@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bddd5ff9-4c62-438a-9dfa-2462e178e728" name="Changes" comment="" />
+    <list default="true" id="bddd5ff9-4c62-438a-9dfa-2462e178e728" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/PlaywrightTest.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/selenium/aj34/Base/BaseClass_Playwright.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/selenium/aj34/Pages_Playwright/HomePage_Playwright.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/selenium/aj34/Pages_Playwright/LoginPage_Playwright.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/selenium/aj34/Pages_Playwright/MainPage_Playwright.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/selenium/aj34/utils/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/BaseTest_Playwright.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/PlaywrightTest/LoginPageTest_Playwright.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/PlaywrightTest/parallelTesting_Playwright.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testData/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testNG_Playwright/PlaywrightDemo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testNG_Playwright/PlaywrightParallel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/selenium/aj34/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/selenium/aj34/Pages/HomePage.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,11 +51,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "Regression/Test",
-    "last_opened_file_path": "D:/Selenium Project/GithubActionsPrac/.github/workflows"
+    "last_opened_file_path": "D:/Selenium Project/GithubActionsPrac/src/test/resources/testNG_Playwright"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Selenium Project\GithubActionsPrac\src\test\resources\testNG_Playwright" />
       <recent name="D:\Selenium Project\GithubActionsPrac\.github\workflows" />
       <recent name="D:\Selenium Project\GithubActionsPrac\src\test\resources\testNG_All" />
     </key>
@@ -47,6 +64,8 @@
       <recent name="D:\Selenium Project\GithubActionsPrac\src\test\resources\testNG_All" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.selenium.aj34.Pages_Playwright" />
+      <recent name="org.selenium.aj34.Base" />
       <recent name="org.selenium.aj34" />
     </key>
   </component>

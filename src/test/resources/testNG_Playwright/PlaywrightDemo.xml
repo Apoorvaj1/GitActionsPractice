@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Running Playwright test Suite">
+    <test name="Playwright test">
+        <parameter name="browserType" value="${whichBrowser}"/>
+        <parameter name="headless" value="${headlessOrNot}"/>
+        <classes>
+            <class name="org.selenium.aj34.Tests.PlaywrightTest.LoginPageTest_Playwright"/>
+        </classes>
+    </test>
+</suite>
