@@ -25,4 +25,4 @@ jobs:
         run: mvn exec:java -Dexec.mainClass=com.microsoft.playwright.CLI -Dexec.args="install --with-deps"
 
       - name: Run test
-        run: mvn clean test -PPlaywright-testing -DbrowserName=edge -DheadlessOrNot=true
+        run: mvn clean test -PPlaywright-testing -DwhichBrowser=edge -DheadlessOrNot=true
