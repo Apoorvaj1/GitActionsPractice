@@ -9,6 +9,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -71,7 +72,7 @@ public class BaseTest_Playwright {
                 tlContext.set(getBrowser().newContext(new Browser.NewContextOptions().setViewportSize(1920,1080)));
             }
             else{
-                tlContext.set(getBrowser().newContext(new Browser.NewContextOptions().setViewportSize(null)));
+                tlContext.set(getBrowser().newContext(new Browser.NewContextOptions().setViewportSize(null).setRecordVideoDir(Paths.get("videos/")).setRecordVideoSize(800,600)));
             }
         }
         if (tlPage.get() == null) {

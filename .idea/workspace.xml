@@ -5,21 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bddd5ff9-4c62-438a-9dfa-2462e178e728" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/PlaywrightTest.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/selenium/aj34/Base/BaseClass_Playwright.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/selenium/aj34/Pages_Playwright/HomePage_Playwright.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/selenium/aj34/Pages_Playwright/LoginPage_Playwright.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/selenium/aj34/Pages_Playwright/MainPage_Playwright.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/selenium/aj34/utils/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/BaseTest_Playwright.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/PlaywrightTest/LoginPageTest_Playwright.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/PlaywrightTest/parallelTesting_Playwright.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testData/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testNG_Playwright/PlaywrightDemo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testNG_Playwright/PlaywrightParallel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/BaseTest_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/ABC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/AddElementToArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/DemoScreenshot_Selenium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/ExtractDataArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/Practice1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/Practice2_Alert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/Practice2_DropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/Practice2_Droppable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/Practice_Window_Selenium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/RemoveElementFromArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/ReverseWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/duplicateCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/enterTextViaJS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/findDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/firstRepeatingCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/hoverAndSelectElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/moveZeroRight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/preserveSpaceReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/randomUUID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/reverseOnlyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/stringToInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/utils/Listener_Selenium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/utils/screenshotTaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testNG_Practice/Practice.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/RegressionTest.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/RegressionTest.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/selenium/aj34/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/selenium/aj34/Pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/BaseTest_Playwright.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/BaseTest_Playwright.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testData/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testData/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testNG_All/Regression-Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testNG_All/Regression-Test.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,17 +63,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Regression/Test",
-    "last_opened_file_path": "D:/Selenium Project/GithubActionsPrac/src/test/resources/testNG_Playwright"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Regression/Test&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Selenium Project/GithubActionsPrac/src/test/resources/testNG_Practice&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Selenium Project\GithubActionsPrac\src\test\resources\testNG_Practice" />
       <recent name="D:\Selenium Project\GithubActionsPrac\src\test\resources\testNG_Playwright" />
       <recent name="D:\Selenium Project\GithubActionsPrac\.github\workflows" />
       <recent name="D:\Selenium Project\GithubActionsPrac\src\test\resources\testNG_All" />
@@ -64,9 +83,10 @@
       <recent name="D:\Selenium Project\GithubActionsPrac\src\test\resources\testNG_All" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.selenium.aj34" />
+      <recent name="org.selenium.aj34.Tests.Playwright_Practice" />
       <recent name="org.selenium.aj34.Pages_Playwright" />
       <recent name="org.selenium.aj34.Base" />
-      <recent name="org.selenium.aj34" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

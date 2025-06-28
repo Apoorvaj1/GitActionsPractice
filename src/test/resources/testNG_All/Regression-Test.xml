@@ -4,6 +4,8 @@
     <test name="Unit test">
         <parameter name="browser" value="${browserName}"/>
         <parameter name="headless" value="${headlessOrNot}"/>
+        <parameter name="remote" value="${remote}"/>
+        <parameter name="env" value="${whichEnv}"/>
         <classes>
             <class name="org.selenium.aj34.Tests.LoginPageTest"/>
         </classes>
