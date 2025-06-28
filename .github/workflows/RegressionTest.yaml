@@ -18,5 +18,8 @@ jobs:
           distribution: 'temurin'
           cache: maven
 
+      - name: Artifacts archive
+        uses: actions/upload-artifact@v4
+
       - name: Run
-        run: mvn clean test -Pregression-test -DbrowserName=edge -DheadlessOrNot=true
+        run: mvn clean test -Pregression-test -DbrowserName=edge -DheadlessOrNot=true -Dremote=local -DwhichEnv=qa
