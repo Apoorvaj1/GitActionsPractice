@@ -4,41 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
+    <list default="true" id="bddd5ff9-4c62-438a-9dfa-2462e178e728" name="Changes" comment="" />
+=======
     <list default="true" id="bddd5ff9-4c62-438a-9dfa-2462e178e728" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/BaseTest_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/ABC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/AddElementToArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/DemoScreenshot_Selenium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/ExtractDataArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/Practice1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/Practice2_Alert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/Practice2_DropDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/Practice2_Droppable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/Practice_Window_Selenium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/RemoveElementFromArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/ReverseWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/duplicateCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/enterTextViaJS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/findDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/firstRepeatingCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/hoverAndSelectElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/moveZeroRight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/preserveSpaceReverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/randomUUID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/reverseOnlyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/Playwright_Practice/stringToInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/utils/Listener_Selenium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/utils/screenshotTaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testNG_Practice/Practice.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/RegressionTest.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/RegressionTest.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/BaseTest_Playwright.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/BaseTest_Playwright.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/selenium/aj34/Tests/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testData/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testData/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testNG_All/Regression-Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testNG_All/Regression-Test.xml" afterDir="false" />
     </list>
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

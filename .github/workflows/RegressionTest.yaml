@@ -20,6 +20,9 @@ jobs:
 
       - name: Artifacts archive
         uses: actions/upload-artifact@v4
+        with:
+          name: artifact
+          path: target/surefire-reports/
 
       - name: Run
         run: mvn clean test -Pregression-test -DbrowserName=edge -DheadlessOrNot=true -Dremote=local -DwhichEnv=qa
